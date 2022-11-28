@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    z=0
+    while i<len(s):
+
+        if s[i].ispunctuatins():
+
+            z+=1
+        i+=1
+
+    return z
+print(main('@com.uz#'))
