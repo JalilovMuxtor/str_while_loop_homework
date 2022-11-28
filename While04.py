@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    x=0
+    i=0
+    while i<len(s):
+
+        if s[i].isupper():
+
+            x+=1
+        i+=1
+    return x
+print(main('CodeSchooLuZ'))
