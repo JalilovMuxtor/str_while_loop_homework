@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    y=0
+    i=0
+    while i<len(s):
+        if s[i].islower():
+
+            y+=1
+        i+=1
+    return y
+print( main('COdescHooLuz'))
