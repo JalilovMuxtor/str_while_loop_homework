@@ -10,7 +10,7 @@ def main(s):
     z=0
     while i<len(s):
 
-        if s[i].ispunctuatins():
+        if s[i].isalpha():
 
             z+=1
         i+=1
